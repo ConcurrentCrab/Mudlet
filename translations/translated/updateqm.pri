@@ -33,7 +33,7 @@ isEmpty(QMAKE_LRELEASE) {
             QMAKE_LRELEASE = $$[QT_INSTALL_BINS]/lrelease-qt6
         }
         !exists($$QMAKE_LRELEASE) {
-            QMAKE_LRELEASE = $$[QT_INSTALL_BINS]/lrelease
+            QMAKE_LRELEASE = lrelease
         }
     }
 }
