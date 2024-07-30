@@ -325,8 +325,8 @@ unix:!macx {
     }
     linux {
         LIBS += \
-            -llua5.1 \
-            -lhunspell
+            -llua \
+            -lhunspell-1.7
         INCLUDEPATH += /usr/include/lua5.1
     }
     LIBS += -lpcre \
